@@ -2,7 +2,7 @@ window.onload=function() {
     canvas=document.getElementById("gamecanvas");
     context=canvas.getContext("2d");
     document.addEventListener("keydown",keyPush);
-    setInterval(game,1000/15);
+    setInterval(game,1000/10);
 };
 
 highScore = 0;

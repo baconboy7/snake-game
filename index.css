@@ -51,15 +51,6 @@ canvas{
     margin: 0;
 }
 
-.btn:hover{
-    transform: translate(0, 10%);
-    box-shadow: 0 5px 10px rgba(0,0,0,.4);
-}
-
-.btn:active{
-    transform: translate(0, 100%);
-}
-
 #up{
     position: absolute;
     top: 0;
