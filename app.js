@@ -3,7 +3,7 @@ window.onload=function() {
     context=canvas.getContext("2d");
     document.addEventListener("keydown",keyPush);
     setInterval(game,1000/15);
-}
+};
 
 highScore = 0;
 currentScore = 0;
@@ -77,3 +77,19 @@ function keyPush(evt) {
             break;
     }
 }
+
+document.getElementById('up').addEventListener('click', function () {
+    xVelocity=0;yVelocity=-1;
+});
+
+document.getElementById('right').addEventListener('click', function () {
+    xVelocity=1;yVelocity=0;
+});
+
+document.getElementById('down').addEventListener('click', function () {
+    xVelocity=0;yVelocity=1;
+});
+
+document.getElementById('left').addEventListener('click', function () {
+    xVelocity=-1;yVelocity=0;
+});

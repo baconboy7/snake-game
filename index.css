@@ -1,0 +1,70 @@
+body{
+    height: 98vh;
+    background-size: cover;
+    background-image: linear-gradient(to right bottom, #7ed56f, #28b485)
+}
+
+.container{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: slategray;
+    padding: 0 50px 50px 50px;
+    border-radius: 50px;
+}
+
+h1{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2{
+    display: inline-block;
+}
+
+.pull-right{
+    float: right;
+}
+
+canvas{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.buttons-container{
+    position: relative;
+    background: slategray;
+    padding: 100px 50px 50px 50px;
+    border-radius: 50px;
+}
+
+#up{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#down{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#left{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+#right{
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translate(-50%, -50%);
+}
