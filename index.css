@@ -6,9 +6,9 @@ body{
 
 .container{
     position: absolute;
-    top: 45%;
+    top: 100px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
     background: slategray;
     padding: 0 50px 50px 50px;
     border-radius: 50px;
@@ -16,9 +16,9 @@ body{
 
 h1{
     position: absolute;
-    top: 5%;
+    top: 20px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
 }
 
 h2{
