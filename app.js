@@ -35,11 +35,11 @@ function game() {
     context.fillStyle="lime";
     for(var i=0;i<trail.length;i++) {
         context.fillRect(trail[i].x*gridSize,trail[i].y*gridSize,gridSize-2,gridSize-2);
-        if(trail[i].x==playerX && trail[i].y==playerY) {0
+        if(trail[i].x==playerX && trail[i].y==playerY) {
             tail = 5;
             currentScore = 0;
             document.getElementById('score').innerText = currentScore;
-
+            window.vibrate(500);
         }
     }
     trail.push({x:playerX,y:playerY});
