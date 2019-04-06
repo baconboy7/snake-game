@@ -39,7 +39,7 @@ function game() {
             tail = 5;
             currentScore = 0;
             document.getElementById('score').innerText = currentScore;
-            window.vibrate(500);
+            window.navigator.vibrate(500);
         }
     }
     trail.push({x:playerX,y:playerY});
